@@ -1,0 +1,63 @@
+{
+  "version": "1.0.0",
+  "update_time": "2026-02-12T00:00:00Z",
+  "nodes": [
+    {
+      "id": "node1",
+      "name": "节点1 - 香港",
+      "url": "http://182.140.180.165:37748",
+      "region": "HK",
+      "priority": 1,
+      "enabled": true,
+      "description": "香港节点 - 主节点"
+    },
+    {
+      "id": "node2",
+      "name": "节点2 - 美国",
+      "url": "http://74.113.96.215:41495",
+      "region": "US",
+      "priority": 2,
+      "enabled": true,
+      "description": "美国节点 - 备用节点"
+    },
+    {
+      "id": "node3",
+      "name": "节点3 - 欧洲",
+      "url": "http://84.54.2.240:58975",
+      "region": "EU",
+      "priority": 3,
+      "enabled": true,
+      "description": "欧洲节点 - 备用节点"
+    },
+    {
+      "id": "node4",
+      "name": "节点4 - 域名",
+      "url": "http://worlds.xin:34603",
+      "region": "CN",
+      "priority": 4,
+      "enabled": true,
+      "description": "域名节点 - 备用节点"
+    },
+    {
+      "id": "node5",
+      "name": "节点5 - 亚太",
+      "url": "http://144.48.184.220:25872",
+      "region": "AP",
+      "priority": 5,
+      "enabled": true,
+      "description": "亚太节点 - 备用节点"
+    }
+  ],
+  "github_config": {
+    "raw_url": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/nodes-config.json",
+    "backup_urls": [
+      "https://cdn.jsdelivr.net/gh/YOUR_USERNAME/YOUR_REPO@main/nodes-config.json",
+      "https://ghproxy.com/https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/nodes-config.json"
+    ]
+  },
+  "settings": {
+    "test_timeout_ms": 5000,
+    "max_retry_count": 3,
+    "cache_duration_hours": 24
+  }
+}
