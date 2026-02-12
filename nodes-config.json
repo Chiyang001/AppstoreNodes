@@ -44,7 +44,16 @@
     "backup_urls": [
       "https://cdn.jsdelivr.net/gh/YOUR_USERNAME/YOUR_REPO@main/nodes-config.json",
       "https://ghproxy.com/https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/nodes-config.json"
-    ]
+    ],
+    {
+      "id": "node5",
+      "name": "节点5 - 亚太",
+      "url": "http://144.48.184.220:25872",
+      "region": "AP",
+      "priority": 5,
+      "enabled": true,
+      "description": "亚太节点 - 备用节点"
+    }
   },
   "settings": {
     "test_timeout_ms": 5000,
@@ -52,4 +61,5 @@
     "cache_duration_hours": 24
   }
 }
+
 
