@@ -37,15 +37,6 @@
       "priority": 4,
       "enabled": true,
       "description": "域名节点 - 备用节点"
-    },
-    {
-      "id": "node5",
-      "name": "节点5 - 亚太",
-      "url": "http://144.48.184.220:25872",
-      "region": "AP",
-      "priority": 5,
-      "enabled": true,
-      "description": "亚太节点 - 备用节点"
     }
   ],
   "github_config": {
@@ -61,3 +52,4 @@
     "cache_duration_hours": 24
   }
 }
+
